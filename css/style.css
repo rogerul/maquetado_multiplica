@@ -1,0 +1,476 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+blockquote,
+big,
+body,
+center,
+canvas,
+caption,
+cite,
+code,
+command,
+datalist,
+dd,
+del,
+details,
+dfn,
+dl,
+div,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+keygen,
+label,
+legend,
+li,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+s,
+samp,
+section,
+small,
+span,
+source,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+tfoot,
+thead,
+th,
+tr,
+tdvideo,
+tt,
+u,
+ul,
+var {
+  background: transparent;
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+table,
+table td {
+  padding: 0;
+  border: none;
+  border-collapse: collapse;
+}
+img {
+  vertical-align: top;
+}
+embed {
+  vertical-align: top;
+}
+* {
+  border: none;
+}
+body,
+.ui-tabs {
+  font-family: 'Roboto', sans-serif;
+  /*font-style: normal;*/
+  font-weight: 300;
+  font-size: 14px;
+  color: #222222;
+}
+h1,
+h2 {
+  font-style: normal;
+  font-weight: 400;
+  color: #4A4A4A;
+  font-size: 26px;
+}
+h3 {
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none !important;
+}
+a:visited {
+  text-decoration: none !important;
+}
+a:link {
+  text-decoration: none;
+}
+.glyphicon {
+  font-size: 14px;
+}
+@font-face {
+  font-family: 'DINpro-bold';
+  src: url('../fonts/DINPro-Bold.ttf') format('truetype');
+  font-style: none;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'DINpro-regular';
+  src: url('../fonts/DINPro-Regular.ttf') format('truetype');
+  font-style: none;
+  font-weight: normal;
+}
+/************ PRECIOS ***************/
+small.p-oferta {
+  font-family: 'DINpro-bold';
+  font-size: 24px;
+  font-style: none;
+  font-weight: bold;
+}
+small.p-oferta span.moneda {
+  font-size: 15px;
+  line-height: 2.5em;
+}
+small.p-regular {
+  font-family: 'DINpro-bold';
+  line-height: 2.8em;
+  color: #666666;
+  margin-left: 10px;
+}
+span.moneda {
+  font-family: 'DINpro-regular';
+  font-weight: normal;
+}
+.prepago {
+  font-size: 12px;
+  font-weight: 400;
+  color: #adadad;
+}
+/************ COMPRA ***************/
+.wrapper-header {
+  padding: 0;
+}
+.wrapper-header .wrapper-nav {
+  background-color: #212121;
+}
+.wrapper-header .wrapper-nav .collapse-nav ul {
+  display: inline-block;
+  /*overflow: hidden;*/
+}
+.wrapper-header .wrapper-nav .collapse-nav ul li {
+  float: left;
+}
+.wrapper-header .wrapper-nav .collapse-nav ul li a {
+  display: block;
+  color: #FFFFFF;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+}
+.wrapper-header .wrapper-nav .collapse-nav ul li a:hover {
+  background-color: #dddddd;
+  color: #212121;
+}
+.wrapper-header .wrapper-nav .login {
+  float: right;
+}
+.wrapper-header .wrapper-nav .login li:last-child {
+  background-color: #2FB0C9;
+  width: 80px;
+}
+.wrapper-header .wrapper-servicios {
+  background-color: #dc2224;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios .logo {
+  display: inline-block;
+  background-image: url("../images/logo-claro.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 80% auto;
+  width: 90px;
+  height: 35px;
+  min-width: 90px;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios ul.nav-servicios {
+  display: inline-block;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios ul.nav-servicios li {
+  float: left;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios ul.nav-servicios li a {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #FFFFFF;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios .form-buscador {
+  margin-left: auto;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios .form-buscador .buscador {
+  width: 260px;
+  min-width: 260px;
+  float: left;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios .form-buscador button {
+  background-color: #2FB0C9;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios .form-buscador button:last-child {
+  color: white;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios .miclaro {
+  width: 80px;
+  text-align: center;
+  background-color: #c31c1e;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios .miclaro a {
+  display: block;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wrapper-header .wrapper-servicios .collapse-servicios .miclaro a:hover {
+  background-color: #dddddd;
+  color: #212121;
+}
+.wrapper-iconos {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.wrapper-iconos .collapse-iconos {
+  margin-bottom: 20px;
+}
+.wrapper-iconos .collapse-iconos .iconos-mobiles {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wrapper-iconos .collapse-iconos .iconos-mobiles [class*="icon-"] {
+  font-size: 2.5em;
+  color: #666666;
+}
+.tabs-gallery #tabs ul li:first-child {
+  margin-left: 25%;
+}
+.tabs-gallery #tabs-1 {
+  text-align: center;
+}
+.tabs-gallery #tabs-1 .cont-smartphones .smartphone {
+  display: inline-block;
+  background-color: red;
+}
+.wrapper-marcas {
+  background-color: #e8e8e8;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wrapper-marcas .collapse-marcas {
+  margin-top: 20px;
+}
+.wrapper-marcas .collapse-marcas .logo-marca {
+  display: inline-block;
+  text-align: center;
+}
+.wrapper-marcas .collapse-marcas .logo-marca:hover {
+  background-color: #dddddd;
+}
+.wrapper-accesorios {
+  margin-top: margin-t4;
+}
+.wrapper-accesorios .collapse-accesorios {
+  background-color: #e8e8e8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.wrapper-accesorios .collapse-accesorios .accesorio {
+  display: inline-block;
+  vertical-align: top;
+}
+.wrapper-compra {
+  background-color: #f5f5f5;
+  margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wrapper-compra h3 {
+  margin-bottom: 20px;
+}
+.wrapper-compra .collapse-compra {
+  padding-left: 0;
+  padding-right: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.wrapper-compra .collapse-compra .tipo-compra {
+  padding: 0px;
+  display: inline-block;
+}
+.wrapper-compra .collapse-compra .tipo-compra .box-icono {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  padding: auto;
+  height: 40px;
+}
+.wrapper-compra .collapse-compra .tipo-compra .box-icono [class*="icon-"] {
+  font-size: 3em;
+  color: #666666;
+}
+.wrapper-compra .collapse-compra .tipo-compra .box-info {
+  display: inline-block;
+  vertical-align: middle;
+  width: 130px;
+  min-width: 130px;
+  margin-left: 10px;
+}
+.wrapper-compra .collapse-compra .tipo-compra .box-info p.info-compra {
+  word-break: keep-all;
+  font-size: 12px;
+  color: inherit;
+}

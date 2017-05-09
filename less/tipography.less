@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+
+body, .ui-tabs{
+  font-family: 'Roboto', sans-serif;
+  /*font-style: normal;*/
+  font-weight: 300;
+  font-size: @font-size2;
+  color: #222222;
+}
+
+
+h1, h2{
+  font-style: normal;
+  font-weight: 400;
+  color: @font-color2;
+  font-size: @font-size-titulos;
+}
+
+h2{
+  &small{
+    
+  }
+}
+
+h3{
+  font-size: @font-size5;
+}
+
+
+//navegadores
+a:hover{
+  text-decoration: none;
+}
+
+a:active{
+  text-decoration: none !important;
+}
+
+a:visited{
+  text-decoration: none !important;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+//glyphicons
+.glyphicon{
+  font-size: @font-size2;
+}
+
+
+@font-face{
+  font-family: 'DINpro-bold';
+  src: url('../fonts/DINPro-Bold.ttf') format('truetype');
+  font-style: none;
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: 'DINpro-regular';
+  src: url('../fonts/DINPro-Regular.ttf') format('truetype');
+  font-style: none;
+  font-weight: normal;
+}
+
+
+
+/************ PRECIOS ***************/
+small{
+
+  &.p-oferta{
+      font-family: 'DINpro-bold';
+      font-size: @font-size6;
+      font-style: none;
+      font-weight: bold;
+
+      span.moneda{
+        font-size: @font-size3;
+        line-height: 2.5em;
+      }
+    }
+
+  &.p-regular{
+    font-family: 'DINpro-bold';
+    line-height: 2.8em;
+    color: @gray-color1;
+    margin-left: @margin-l1;
+  }
+}
+
+
+  span.moneda{
+    font-family: 'DINpro-regular';
+    font-weight: normal;
+  }
+
+  .prepago{
+    font-size: @font-size0;
+    font-weight: 400;
+    color: @gray-color4;
+  }
+
+/************ COMPRA ***************/
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+.wrapper-header{
+	padding: 0;
+
+	.wrapper-nav{
+		background-color: @black-color;
+
+			 .collapse-nav ul{
+				display: inline-block;
+				/*overflow: hidden;*/
+
+				li{
+					float:left;
+
+					a{
+						display: block;
+						color: @white-color;
+						padding-top: @padding-t1 - 5;
+						padding-bottom: @padding-b1 - 5;
+						padding-left: @padding-l2;
+						padding-right: @padding-r2;
+						font-size: @font-size0;
+					}
+
+					a:hover{
+						background-color: @gray-color2;
+						color: @black-color;
+					}
+
+				}	
+			}
+
+			.login{
+				float: right;
+
+				li:last-child{
+					background-color: @skyblue-color;
+					width: 80px;
+				}
+			}
+	}
+
+	
+
+	.wrapper-servicios{
+		background-color: @red-color;
+
+		.collapse-servicios{
+			display: -webkit-flex;
+		    display: flex;
+		    -webkit-align-items: center;
+		    align-items: center;
+
+			    .logo{
+					display: inline-block;
+					background-image: url("@{imgpath}/logo-claro.png");
+		  			background-repeat: no-repeat;
+		  			background-position: center center;
+		  			background-size: 80% auto;
+					width: 90px;
+					height: 35px;
+					min-width:90px;
+				}	
+
+			ul.nav-servicios{
+				display: inline-block;
+				li{
+					float: left;
+
+					a{
+						display: block;
+						padding-top: @padding-t1;
+						padding-bottom: @padding-b1;
+						padding-left: @padding-l2;
+						padding-right: @padding-r2;
+						color: @white-color;
+					}
+				}
+			}
+			
+			.form-buscador{
+				margin-left: auto;
+
+				.buscador{
+					width: 260px;
+					min-width: 260px;
+					float: left;
+				}
+
+				button{
+					background-color: @skyblue-color;
+				}
+
+				button:last-child{
+					color: white;
+				}
+			}
+			
+			.miclaro{
+				width: 80px;
+				text-align: center;
+				background-color: @red-color2;
+
+				a{
+				display: block;
+				color: @white-color;
+				padding-top: @padding-t2;
+				padding-bottom: @padding-b2;
+				}
+
+				a:hover{
+					background-color: @gray-color2;
+					color: @black-color;
+				}
+			}
+			
+		}
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
