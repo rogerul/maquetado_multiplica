@@ -474,3 +474,18 @@ span.moneda {
   font-size: 12px;
   color: inherit;
 }
+.wrapper-footer .header-footer {
+  background-color: #cacaca;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.wrapper-footer .header-footer ul > li {
+  float: left;
+}
+.wrapper-footer .body-servicios {
+  background-color: #dddddd;
+}
+.wrapper-footer .body-servicios .collapse-servicios {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
