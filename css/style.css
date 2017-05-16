@@ -277,6 +277,7 @@ span.moneda {
   color: #adadad;
 }
 /************ COMPRA ***************/
+/************ FOOTER ***************/
 .wrapper-header {
   padding: 0;
 }
@@ -391,10 +392,14 @@ span.moneda {
 .tabs-gallery #tabs ul li:first-child {
   margin-left: 25%;
 }
-.tabs-gallery #tabs-1 {
+.tabs-gallery #tabs-1,
+.tabs-gallery #tabs-2,
+.tabs-gallery #tabs-3 {
   text-align: center;
 }
-.tabs-gallery #tabs-1 .cont-smartphones .smartphone {
+.tabs-gallery #tabs-1 .cont-smartphones .smartphone,
+.tabs-gallery #tabs-2 .cont-smartphones .smartphone,
+.tabs-gallery #tabs-3 .cont-smartphones .smartphone {
   display: inline-block;
   background-color: red;
 }
@@ -488,4 +493,54 @@ span.moneda {
 .wrapper-footer .body-servicios .collapse-servicios {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.wrapper-footer .body-servicios .social .iconos-social {
+  display: inline-block;
+  margin-right: 5px;
+}
+.wrapper-footer .body-servicios .social .iconos-social [class*="icon-"] {
+  font-size: 2em;
+  color: #212121;
+}
+.wrapper-footer .copyright {
+  background-color: #212121;
+  color: #fff;
+}
+.wrapper-footer .copyright .collapse-copyright .reservados .logo {
+  display: inline-block;
+  background-image: url("../images/logo-claro.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 80% auto;
+  width: 90px;
+  height: 35px;
+  min-width: 90px;
+  vertical-align: middle;
+}
+.wrapper-footer .copyright .collapse-copyright .reservados p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.wrapper-footer .copyright .privacidad {
+  display: inline-block;
+  padding-top: 0.5em;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+}
+.wrapper-footer .copyright .privacidad ul {
+  float: right;
+}
+.wrapper-footer .copyright .privacidad ul li {
+  display: inline-block;
+}
+.wrapper-footer .copyright .privacidad ul li a {
+  color: #2FB0C9;
+  font-size: 12px;
+  margin-left: 30px;
+}
+.wrapper-footer .copyright .privacidad ul li a:hover {
+  color: white;
 }

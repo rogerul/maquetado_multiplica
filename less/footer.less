@@ -1,5 +1,5 @@
 .wrapper-footer{
-
+	
 	.header-footer{
 		background-color: @gray-color6;
 		padding-top: @padding-t1;
@@ -17,5 +17,81 @@
 			padding-top: @padding-t2;
 			padding-bottom: @padding-t2;
 		}
+
+	.social{
+
+		.iconos-social{
+			display: inline-block;
+			margin-right: @margin-r1 - 5;
+
+			[class*="icon-"]{
+				font-size: 2em;
+				color: @gray-color;
+				}
+		}
+	}
+
+	}
+
+	.copyright{
+		background-color: @gray-color;
+		color: #fff;
+
+
+		    .collapse-copyright{
+
+				.reservados{
+
+					.logo{
+						display: inline-block;
+						background-image: url("@{imgpath}/logo-claro.png");
+			  			background-repeat: no-repeat;
+			  			background-position: center center;
+			  			background-size: 80% auto;
+						width: 90px;
+						height: 35px;
+						min-width:90px;
+						vertical-align: middle;
+					}
+
+					p{
+						display: inline-block;
+						vertical-align: middle;
+						font-size: @font-size0;
+						margin-left:@margin-l1;
+					}
+				}
+		    }
+
+		
+
+		.privacidad{
+			display: inline-block;
+			padding-top: 0.5em;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: @padding-t1;
+
+
+			ul{
+				float: right;
+
+				li{
+			 		display: inline-block;
+					
+					a{
+						color: @skyblue-color;
+						font-size: @font-size0;
+						margin-left: @margin-l3;
+
+						&:hover{
+							color: white;
+						}
+					}
+				}
+			}
+
+		 	
+		}	
 	}
 }
