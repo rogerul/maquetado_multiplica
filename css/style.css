@@ -250,6 +250,7 @@ a:link {
   font-style: none;
   font-weight: normal;
 }
+/************ SLIDER ***************/
 /************ PRECIOS ***************/
 small.p-oferta {
   font-family: 'DINpro-bold';
@@ -373,6 +374,47 @@ span.moneda {
   background-color: #dddddd;
   color: #212121;
 }
+.contenedor-slider {
+  background-color: #f7f7f7;
+}
+.contenedor-slider .slider {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  background-color: transparent;
+}
+.contenedor-slider .slider .descripcion {
+  display: inline-block;
+  margin-left: 20px;
+  width: 55%;
+  padding: 40px;
+  background-color: transparent;
+}
+.contenedor-slider .slider .descripcion h1 {
+  margin-bottom: 10px;
+}
+.contenedor-slider .slider .descripcion .btn {
+  margin-bottom: 10px;
+}
+.contenedor-slider .slider .descripcion .btn [class*="glyphicon-"] {
+  line-height: 1.2em;
+  margin-left: 5px;
+}
+.contenedor-slider .slider .descripcion p.descripcion-anuncio {
+  font-size: 15px;
+  color: #adadad;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.contenedor-slider .slider .descripcion .stock {
+  margin-top: 10px;
+}
+.contenedor-slider .slider .descripcion .stock p.small {
+  color: #adadad;
+  font-size: 10px;
+  font-weight: 400;
+}
 .wrapper-iconos {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -402,6 +444,14 @@ span.moneda {
 .tabs-gallery #tabs-3 .cont-smartphones .smartphone {
   display: inline-block;
   background-color: red;
+}
+.tabs-gallery .btn img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.tabs-gallery .btn [class*="glyphicon-"] {
+  line-height: 1.2em;
+  margin-left: 5px;
 }
 .wrapper-marcas {
   background-color: #e8e8e8;

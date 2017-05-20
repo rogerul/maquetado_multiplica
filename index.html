@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://file.myfontastic.com/ge4rFDzGQiHRphB8R8aPb8/icons.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
 
  
 
@@ -72,10 +73,65 @@
 	</nav>
 </header>
 
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+
 	<!--============ SLIDER ===========-->
-	<div class="slider-claro">
-		
+	<div class="contenedor-slider container-fluid">
+		<div class="slider">
+			<div class="flexslider">
+			  <ul class="slides">
+			    <li>
+			      <img src="images/banner1.png"/>
+			      <div class="descripcion">
+			      	<h1>iPhone6 en <br> prepago Smartkit</h1>
+			      	<p class="descripcion-anuncio">Descripción,texto complementario<br> del anuncio</p>
+			      	<button class="btn btn-info">Descubrir<span class="glyphicon glyphicon-menu-right""></span></button>
+			      	<div class="stock">
+			      		<p class="small">Bono de 2.5 GB pa módems adquiridos del 16.03.2015 al 15.04.2015 con líneas nuevas Prepago TUN BAM y para migraciones y/o hasta agotar stock. No aplica portabilidad. Stock mínimo 80. El bono inicial se divide uno de 512 MB y dos de 1GB. Más condiciones aquí.</p>
+			      	</div>
+			      </div>
+			    </li>
+			    <li>
+			      <img src="images/banner2.png" />
+			      <div class="descripcion">
+			      	<h1>iPhone6 en <br> prepago Smartkit</h1>
+			      	<p class="descripcion-anuncio">Descripción,texto complementario<br> del anuncio</p>
+			      	<button class="btn btn-info">Descubrir<span class="glyphicon glyphicon-menu-right""></span></button>
+			      	<div class="stock">
+			      		<p class="small">Bono de 2.5 GB pa módems adquiridos del 16.03.2015 al 15.04.2015 con líneas nuevas Prepago TUN BAM y para migraciones y/o hasta agotar stock. No aplica portabilidad. Stock mínimo 80. El bono inicial se divide uno de 512 MB y dos de 1GB. Más condiciones aquí.</p>
+			      	</div>
+			      </div>
+			    </li>
+			    <li>
+			      <img src="images/banner3.png" />
+			      <div class="descripcion">
+			      	<h1>iPhone6 en <br> prepago Smartkit</h1>
+			      	<p class="descripcion-anuncio">Descripción,texto complementario<br> del anuncio</p>
+			      	<button class="btn btn-info">Descubrir<span class="glyphicon glyphicon-menu-right""></span></button>
+			      	<div class="stock">
+			      		<p class="small">Bono de 2.5 GB pa módems adquiridos del 16.03.2015 al 15.04.2015 con líneas nuevas Prepago TUN BAM y para migraciones y/o hasta agotar stock. No aplica portabilidad. Stock mínimo 80. El bono inicial se divide uno de 512 MB y dos de 1GB. Más condiciones aquí.</p>
+			      	</div>
+			      </div>
+			    </li>
+			  </ul>
+			</div>
+		</div>
 	</div>
+	
+
+	
 
 <div class="container">
 	<article>
@@ -169,8 +225,18 @@
 					    </div>
 				  </div>
 				</div>
-				<button class="btn btn-info center-block">ver todos los smartphones</button>
-				<button class="btn btn-danger pull-right">Necesias ayuda</button>
+				<button class="btn btn-info center-block">ver todos los smartphones<span class="glyphicon glyphicon-menu-right""></span></button>
+				
+				<div class="btn-group pull-right">
+				  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    <img src="images/telefono.png"> ¿Necesias ayuda? <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu">
+				    <li><a href="#">opción 1</a></li>
+				    <li><a href="#">opción 2</a></li>
+				    <li><a href="#">opción 3</a></li>
+				  </ul>
+				</div>
 			</div>
 		</section>
 			<!--============ FIN PESTAÑAS-TABS ===========-->
@@ -391,9 +457,17 @@
 	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
 
 
 	<script>  
+
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+	    animation: "slide"
+	  });
+	});
+
 	$( function() {  // efectos para tabs
     	$("#tabs").tabs({
 	        hide: {
@@ -406,6 +480,8 @@
 	        }
     	});
   	});
+
+
   </script>
 
 

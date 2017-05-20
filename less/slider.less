@@ -1,0 +1,58 @@
+.contenedor-slider{
+	background-color: @gray-color7;
+
+	.slider{
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+		height: auto;
+		background-color: transparent;
+
+
+		.descripcion{
+			display: inline-block;
+			margin-left: @margin-l2;
+			width: 55%;
+			padding: @padding-t4;
+			background-color: transparent;
+
+			h1{
+				margin-bottom: @margin-b1;
+			}
+
+			.btn{
+				margin-bottom: @margin-b1;
+
+				[class*="glyphicon-"]{
+				line-height: 1.2em;
+				margin-left: @margin-l1 - 5;
+				}
+			}
+
+			p{
+
+			  &.descripcion-anuncio{
+			    font-size: @font-size3;
+			    color: @gray-color4;
+			    font-weight: 400;
+			    margin-bottom: @margin-b2;
+			  }
+			}
+
+			.stock {
+				margin-top: @margin-t1;
+
+				p{
+					&.small{
+				  	color: @gray-color4;
+				  	font-size: @font-size00;
+				  	font-weight: 400;
+				  }
+				}
+				
+			}
+
+		}
+
+	}
+}
