@@ -235,9 +235,6 @@ a:visited {
 a:link {
   text-decoration: none;
 }
-.glyphicon {
-  font-size: 14px;
-}
 @font-face {
   font-family: 'DINpro-bold';
   src: url('../fonts/DINPro-Bold.ttf') format('truetype');
@@ -285,32 +282,52 @@ span.moneda {
 .wrapper-header .wrapper-nav {
   background-color: #212121;
 }
-.wrapper-header .wrapper-nav .collapse-nav ul {
+.wrapper-header .wrapper-nav .collapse-nav ul.navs {
   display: inline-block;
-  /*overflow: hidden;*/
 }
-.wrapper-header .wrapper-nav .collapse-nav ul li {
+.wrapper-header .wrapper-nav .collapse-nav ul.navs li {
   float: left;
 }
-.wrapper-header .wrapper-nav .collapse-nav ul li a {
+.wrapper-header .wrapper-nav .collapse-nav ul a {
   display: block;
   color: #FFFFFF;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 12px;
+  height: 40px;
 }
-.wrapper-header .wrapper-nav .collapse-nav ul li a:hover {
-  background-color: #dddddd;
-  color: #212121;
+.wrapper-header .wrapper-nav .collapse-nav ul a:hover {
+  background-color: #e8e8e8 !important;
+  color: #212121 !important;
 }
-.wrapper-header .wrapper-nav .login {
+.wrapper-header .wrapper-nav .collapse-nav ul a:focus {
+  background-color: #e8e8e8 !important;
+  color: #212121 !important;
+}
+.wrapper-header .wrapper-nav .collapse-nav ul a:active {
+  background-color: #e8e8e8 !important;
+  color: #212121 !important;
+}
+.wrapper-header .wrapper-nav .registro {
   float: right;
 }
-.wrapper-header .wrapper-nav .login li:last-child {
+.wrapper-header .wrapper-nav .registro .carrito {
   background-color: #2FB0C9;
-  width: 80px;
+  width: 100px;
+}
+.wrapper-header .wrapper-nav .registro .carrito .cantidad {
+  background-color: #FFFFFF;
+  display: inline-block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #2FB0C9;
+  text-align: center;
+  font-weight: 400;
 }
 .wrapper-header .wrapper-servicios {
   background-color: #dc2224;
