@@ -38,15 +38,22 @@
 }
 .webui-popover-content>.carrito-compras>.producto-compra img{
   display: inline-block;
-  width: 70px;
+  width: 75px;  
   height: auto;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .webui-popover-content>.carrito-compras>.producto-compra>.descripcion-compra{
   display: inline-block;
 }
 
+.webui-popover-content .descripcion-compra p,span,small{
+  font-size: 11px;
+}
+
+.webui-popover-content .descripcion-compra span{
+  font-size: 11px;
+}
 
 
 
