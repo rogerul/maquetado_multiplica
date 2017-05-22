@@ -213,6 +213,9 @@ body,
   font-size: 14px;
   color: #222222;
 }
+p {
+  font-weight: 300;
+}
 h1,
 h2 {
   font-style: normal;
@@ -247,7 +250,6 @@ a:link {
   font-style: none;
   font-weight: normal;
 }
-/************ SLIDER ***************/
 /************ PRECIOS ***************/
 small.p-oferta {
   font-family: 'DINpro-bold';
@@ -461,7 +463,11 @@ span.moneda {
 .tabs-gallery #tabs-2 .cont-smartphones .smartphone,
 .tabs-gallery #tabs-3 .cont-smartphones .smartphone {
   display: inline-block;
-  background-color: red;
+}
+.tabs-gallery #tabs-1 .cont-smartphones .smartphone img,
+.tabs-gallery #tabs-2 .cont-smartphones .smartphone img,
+.tabs-gallery #tabs-3 .cont-smartphones .smartphone img {
+  margin-bottom: 20px;
 }
 .tabs-gallery .btn img {
   display: inline-block;
