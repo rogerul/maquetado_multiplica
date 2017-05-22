@@ -1,0 +1,4 @@
+.btn [class*="glyphicon-"] {
+  line-height: 2em;
+  margin-left: 5px;
+}

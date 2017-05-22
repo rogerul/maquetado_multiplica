@@ -315,7 +315,7 @@ span.moneda {
 }
 .wrapper-header .wrapper-nav .registro .carrito {
   background-color: #2FB0C9;
-  width: 100px;
+  /*width: 100px;*/
 }
 .wrapper-header .wrapper-nav .registro .carrito .cantidad {
   background-color: #FFFFFF;
@@ -391,6 +391,11 @@ span.moneda {
   background-color: #dddddd;
   color: #212121;
 }
+.btn [class*="glyphicon-menu-"] {
+  line-height: 1.5 !important;
+  margin-left: 1px !important;
+  font-size: 12px;
+}
 .contenedor-slider {
   background-color: #f7f7f7;
 }
@@ -413,10 +418,6 @@ span.moneda {
 }
 .contenedor-slider .slider .descripcion .btn {
   margin-bottom: 10px;
-}
-.contenedor-slider .slider .descripcion .btn [class*="glyphicon-"] {
-  line-height: 1.2em;
-  margin-left: 5px;
 }
 .contenedor-slider .slider .descripcion p.descripcion-anuncio {
   font-size: 15px;
@@ -465,10 +466,6 @@ span.moneda {
 .tabs-gallery .btn img {
   display: inline-block;
   vertical-align: middle;
-}
-.tabs-gallery .btn [class*="glyphicon-"] {
-  line-height: 1.2em;
-  margin-left: 5px;
 }
 .wrapper-marcas {
   background-color: #e8e8e8;
